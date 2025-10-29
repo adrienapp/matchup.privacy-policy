@@ -51,7 +51,7 @@ Analyse de l'utilisation de l'application
 Conformité au Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne
 Droits supplémentaires pour les résidents de l'UE
 8. Contact :
-Email : privacy@matchup-app.com
+Email : contact.fr.matchup@gmail.com
 Ces règles sont exactement celles définies dans le code de la politique de confidentialité de l'application.
 
 
