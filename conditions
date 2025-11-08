@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Conditions d’utilisation – MatchUp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: "Segoe UI", sans-serif; margin: 0; background: #f4f6fb; color: #222c3c; }
+    header { background: #0ea5e9; color: white; padding: 36px 24px; text-align: center; }
+    main { max-width: 820px; margin: 0 auto; padding: 32px 24px 64px; }
+    section { margin-bottom: 32px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 14px 28px rgba(14, 165, 233, 0.08); }
+    h1, h2 { margin-bottom: 16px; }
+    h3 { margin-top: 16px; margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    footer { text-align: center; padding: 24px; color: #64748b; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Conditions d’utilisation</h1>
+    <p>Dernière mise à jour : <span id="last-update"></span></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. Acceptation</h2>
+      <p>
+        En utilisant MatchUp, vous acceptez ces conditions. Si vous refusez l’une d’elles,
+        veuillez cesser d’utiliser l’application.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Contenu généré par les utilisateurs</h2>
+      <p>
+        Vous êtes responsable de ce que vous publiez (photos, messages, informations de profil).
+        Assurez-vous de respecter les lois en vigueur et la charte de la communauté.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Contenu et comportements interdits</h2>
+      <h3>3.1 Contenu</h3>
+      <ul>
+        <li>Violence, menaces, propos haineux</li>
+        <li>Contenu sexuellement explicite ou pornographique</li>
+        <li>Usurpation d’identité ou divulgation de données personnelles</li>
+        <li>Atteinte aux droits de propriété intellectuelle</li>
+        <li>Fraude, spam ou malveillance</li>
+      </ul>
+
+      <h3>3.2 Comportements</h3>
+      <ul>
+        <li>Harcèlement ou intimidation</li>
+        <li>Création de faux profils</li>
+        <li>Utilisation abusive des fonctionnalités de l’application</li>
+        <li>Activités illégales ou trompeuses</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Signalement et modération</h2>
+      <p>
+        Utilisez les outils intégrés pour signaler un abus. Notre équipe peut supprimer du contenu,
+        suspendre un compte ou alerter les autorités si nécessaire.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Responsabilité</h2>
+      <p>
+        MatchUp n’est pas responsable des interactions entre utilisateurs. Nous faisons de
+        notre mieux pour maintenir une communauté sûre, mais chaque membre doit respecter les règles.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Modifications</h2>
+      <p>
+        Nous pouvons modifier ces conditions à tout moment. Les changements importants seront
+        communiqués via l’application ou par e-mail.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Contact</h2>
+      <p>Questions ou signalements : <a href="mailto:support@matchup-app.com">support@matchup-app.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="footer-year"></span> MatchUp.
+  </footer>
+
+  <script>
+    const today = new Date().toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', year: 'numeric' });
+    document.getElementById('last-update').textContent = today;
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
