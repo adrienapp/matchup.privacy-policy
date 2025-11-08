@@ -1,64 +1,55 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <title>MatchUp – Rencontrez des partenaires de tennis</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="MatchUp est une application mobile qui aide les joueurs de tennis à trouver des partenaires proches, organiser des matchs et suivre leurs performances." />
-  <style>
-    body { font-family: "Segoe UI", sans-serif; margin: 0; background: #f7f9fc; color: #1f2933; }
-    header { background: linear-gradient(120deg, #4f46e5, #06b6d4); color: white; padding: 48px 24px; text-align: center; }
-    main { max-width: 780px; margin: 0 auto; padding: 32px 24px 64px; }
-    h1, h2 { margin-bottom: 16px; }
-    section { margin-bottom: 40px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 12px 24px rgba(79, 70, 229, 0.08); }
-    ul { padding-left: 20px; }
-    footer { text-align: center; padding: 32px 24px; color: #52606d; font-size: 14px; }
-    a { color: #4f46e5; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>MatchUp</h1>
-    <p>L’application mobile pour trouver des partenaires de tennis près de chez vous.</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>À propos de MatchUp</h2>
-      <p>
-        MatchUp vous permet de découvrir des joueurs de tennis autour de vous, planifier des matchs 
-        et suivre vos progrès. L’application met l’accent sur la sécurité, la convivialité et la
-        progression de chaque joueur.
-      </p>
-    </section>
-
-    <section>
-      <h2>Principales fonctionnalités</h2>
-      <ul>
-        <li>Recherche de partenaires par niveau, localisation et disponibilité.</li>
-        <li>Organisation de matchs individuels ou en double.</li>
-        <li>Suivi des statistiques et historique des performances.</li>
-        <li>Messagerie intégrée et notifications push pour rester informé.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Une question ? Écrivez-nous à <a href="mailto:support@matchup-app.com">support@matchup-app.com</a>.</p>
-      <p>
-        Consultez aussi notre 
-        <a href="https://ton-domaine.github.io/privacy.html">Politique de confidentialité</a> et nos 
-        <a href="https://ton-domaine.github.io/terms.html">Conditions d’utilisation</a>.
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    © <span id="year"></span> MatchUp — Tous droits réservés.
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+# 🔒 Règles de Privacy de MatchUp
+1. Introduction :
+MatchUp s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles.
+2. Informations collectées :
+2.1 Informations de compte :
+Nom d'utilisateur et adresse e-mail
+Mot de passe (chiffré)
+Photo de profil (optionnelle)
+2.2 Informations de profil :
+Niveau de tennis
+Biographie personnelle (optionnel)
+Classement FFT (optionnel)
+2.3 Données de localisation :
+Coordonnées GPS (avec votre consentement)
+Utilisées pour vous connecter avec des joueurs à proximité
+Vous pouvez désactiver cette fonctionnalité à tout moment
+La localisation des utilisateurs sur la carte est brouillé de 400m 
+2.4 Données d'activité :
+Historique des matchs
+Statistiques de jeu
+Messages et conversations
+Photos partagées dans les conversations
+2. Utilisation des informations :
+Fournir et améliorer nos services
+Vous connecter avec d'autres joueurs de tennis
+Organiser des matchs et événements
+Calculer et afficher vos statistiques
+Envoyer des notifications importantes
+Assurer la sécurité de la plateforme
+3. Partage d'informations :
+Nous ne vendons jamais vos informations personnelles
+Partage uniquement avec d'autres utilisateurs de l'application (profil public, messages)
+Partage avec des prestataires de services tiers (Firebase, Google Maps)
+Partage lorsque requis par la loi ou pour protéger nos droits
+4. Stockage et sécurité :
+Vos données sont stockées de manière sécurisée sur les serveurs Firebase
+Nous utilisons le chiffrement pour protéger vos informations
+Les mots de passe sont hachés et ne sont jamais stockés en clair
+Nous mettons en place des mesures de sécurité appropriées
+5. Droits des utilisateurs :
+Accéder à vos données personnelles
+Corriger des informations inexactes
+Supprimer votre compte et vos données
+Retirer votre consentement à tout moment
+Exporter vos données
+6. Technologies :
+Utilisation de technologies similaires aux cookies pour améliorer l'expérience
+Mémorisation des préférences
+Analyse de l'utilisation de l'application
+7. Conformité RGPD :
+Conformité au Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne
+Droits supplémentaires pour les résidents de l'UE
+8. Contact :
+Email : contact.fr.matchup@gmail.com
+Ces règles sont exactement celles définies dans le code de la politique de confidentialité de l'application
